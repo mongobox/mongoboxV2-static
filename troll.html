@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>MongoBox Trolls Station</title>
+
+    <link rel="stylesheet" type="text/css" href="styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="styles/fonts/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:100,300,400,500,700,900" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+
+</head>
+<body>
+<header>
+    <nav>
+        <div class="toggle-menu">
+            <span class="btn-menu"></span>
+            <span class="btn-menu"></span>
+            <span class="btn-menu"></span>
+        </div>
+        <ul class="menu">
+            <li>
+                <span class="title">MongoBox</span>
+                <ul class="sub-menu">
+                    <li>Live</li>
+                    <li>Listes des vidéos</li>
+                    <li>Classement</li>
+                    <li>Ajouter une vidéo</li>
+                </ul>
+            </li>
+            <li>
+                <span class="title">MongoTroll</span>
+                <ul class="sub-menu">
+                    <li class="new-notification">Tumblr</li>
+                    <li>Classement</li>
+                    <li>Ajouter une image</li>
+                </ul>
+            </li>
+            <li>
+                <span class="title">MongoEat</span>
+                <ul class="sub-menu">
+                    <li>Voter</li>
+                    <li>Proposer</li>
+                </ul>
+            </li>
+            <li>
+                <span class="title">Groupe</span>
+                <ul class="sub-menu">
+                    <li class="private">MongoTeam</li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <h1>
+        <img width="50" src="img/logo.png" alt="Mongo">
+    </h1>
+    <section class="user-information">
+        <i class="fa fa-bell-o new-notification" aria-hidden="true"></i>
+        <div class="avatar-container">
+            <img width="53" class="avatar" src="img/user/user1.jpg">
+        </div>
+    </section>
+</header>
+<section class="video">
+    <div class="video-player">
+        <iframe width="1280" height="720"
+                src="https://www.youtube.com/embed/ov5pxaIbJlM?rel=0&amp;autoplay=1&amp;controls=0&amp;showinfo=0"
+                frameborder="0" allowfullscreen></iframe>
+        <div class="video-description">
+            <p class="author">Ten Hour Guy</p>
+            <p class="title">Diggy Diggy Hole - 10 Hours</p>
+            <div class="user">
+                <div class="avatar-container">
+                    <img width="50" class="avatar" src="img/user/user2.jpg">
+                </div>
+                <span class="pseudo">jho</span>
+                <div class="vote">
+                    <span class="active" data-vote="up"><i class="fa fa-thumbs-up" aria-hidden="true"></i>3</span>
+                    <span data-vote="down"><i class="fa fa-thumbs-down" aria-hidden="true"></i>0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="domi"></div>
+    <div class="down"></div>
+</section>
+<footer>
+    <section class="video-information">
+        <div class="left">
+            <div class="picture">
+                <img height="100" class="smaller" src="img/video/video1.jpg">
+            </div>
+            <p class="song">Diggy Diggy Hole - 10 Hours <span class="author">Ten Hour Guy</span></p>
+            <div class="avatar-container">
+                <img width="50" class="avatar" src="img/user/user2.jpg">
+            </div>
+            <span class="pseudo">jho</span>
+            <div class="vote">
+                <span class="active" data-vote="up"><i class="fa fa-thumbs-up" aria-hidden="true"></i>3</span>
+                <span data-vote="down"><i class="fa fa-thumbs-down" aria-hidden="true"></i>0</span>
+            </div>
+        </div>
+        <div class="right">
+            <div class="sound-container">
+                <i class="fa fa-volume-down" aria-hidden="true"></i>
+                <div class="bar">
+                    <span class="backgroung"></span>
+                    <span class="active-50"></span>
+                </div>
+
+                <span class="vol">50%</span>
+                <div class="sound">
+                    <span class="up"><i class="fa fa-volume-off" aria-hidden="true"></i><em class="control">-</em> 0</span>
+                    <span class="down"><i class="fa fa-volume-off" aria-hidden="true"></i><em class="control">+</em> 0</span>
+                </div>
+
+            </div>
+            <div class="time">3:26 / 4:12</div>
+            <div class="add-video"><em>+</em></div>
+        </div>
+
+    </section>
+</footer>
+</body>
+</html>
